@@ -28,7 +28,22 @@ public class MyInteger_Test {
 
 	@Test
 	public void test() {
-		assertTrue(1==1);
+		
+		MyInteger a=new MyInteger(3);
+		MyInteger b=new MyInteger(6);
+		MyInteger c=new MyInteger(9);
+		
+		assertEquals(false, a.isEven());
+		assertEquals(true, b.isEven());
+		assertEquals(false, c.isEven());
+		
+		assertEquals(true, a.isOdd());
+		assertEquals(false, b.isOdd());
+		assertEquals(true, c.isOdd());
+		
+		assertEquals(true, a.isPrime());
+		assertEquals(false, b.isPrime());
+		assertEquals(false, c.isPrime());
 	}
 
 }
