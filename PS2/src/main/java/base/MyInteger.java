@@ -71,6 +71,7 @@ public class MyInteger {
 		if(num.getiValue()%2==0){
 			return true;
 		}
+		
 		else{
 			return false;
 		}
