@@ -45,6 +45,5 @@ public class MyInteger_Test {
 		assertEquals(false, b.isPrime());
 		assertEquals(false, c.isPrime());
 	}
-	
 
 }
